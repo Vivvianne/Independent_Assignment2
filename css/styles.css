@@ -1,6 +1,9 @@
 body {
     margin: auto;
 }
-background-image: {
-    url("..img/landing.jpg")
+.jumbotron{
+    background-image: {
+        url("img/landing.jpg");
+    }
 }
+text-align: center;
