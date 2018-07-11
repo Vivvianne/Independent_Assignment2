@@ -8,3 +8,34 @@ body {
 .logo{
     text-align: center;
 }
+#image{
+    background: url("../img/breakfast.jpg");
+    size: 70px;
+}
+#image1{
+    background: url("../img/lunch.jpg");
+    size: 70px;
+}
+#image3{
+    background: url("../img/dinner.jpg");
+    size: 70px;
+}
+#row-1{
+    height: 100px;
+    padding: 50px;
+    text-align: center;
+    color: #333;
+}
+#row-2{
+    height: 100px;
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+    background-color: #F15A29;
+}
+#vffood{
+    padding-top: 5%;
+    margin: 0 auto;
+    width: 85%;
+    font-size: 20px;
+}
