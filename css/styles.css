@@ -2,8 +2,9 @@ body {
     margin: auto;
 }
 .jumbotron{
-    background-image: {
-        url("img/landing.jpg");
-    }
+    background-image: url("../img/landing.jpg");
+    
 }
-text-align: center;
+.logo{
+    text-align: center;
+}
