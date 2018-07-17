@@ -27,6 +27,7 @@ body {
     cursor: pointer;
   }
   
+  
   .menu {
     margin: 0;
     padding: 0;
@@ -38,4 +39,105 @@ body {
     background: rgba(241, 90, 41, 0.8);
     z-index: 1;
     transition: .5s;
-  } 
+  }
+  *Column 1: Happy hour and Party Time*/
+  .menu-column-1 {
+    padding: 0;
+    margin:0;
+  }
+  
+  .happy-hour-row{
+    background: white;
+    margin: 0px;
+    padding: 30px;
+    font-size: 22px;
+  }
+  
+  .party-time-row{
+    background: #F15A29;
+    margin: 0px;
+    padding: 30px;
+    color: white;
+    font-size: 22px;
+  }
+  
+  .happy-hour-row:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .party-time-row:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  /*End of column 1*/
+  /*Column 2: Breakfast */
+.menu-column-2 {
+  background-image: url("../img/breakfast.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1.0;
+  color: white;
+}
+
+.menu-column-2:hover{
+  background-image: url("../img/breakfast.jpg");
+  opacity: 0.5;
+  cursor: pointer;
+  text-decoration: underline;
+  color: black;
+}
+.breakfast {
+  font-size: 22px;
+  margin-top: 70px;
+}
+/*End of Column 2*/
+
+/*Column 3: Lunch */
+.menu-column-3 {
+  background-image: url("../img/lunch.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1.0;
+  color: white;
+}
+
+.lunch {
+  margin: 70px;
+  margin-left: 50px;
+  font-size: 22px;
+}
+
+.menu-column-3:hover {
+  background-image: url("../img/lunch.jpg");
+  opacity: 0.5;
+  color: black;
+  cursor: pointer;
+  text-decoration: underline;
+}
+/*End of Column 3*/
+
+/*Column 4: Dinner*/
+.menu-column-4 {
+  background-image: url("../images/foodtop/dinner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1.0;
+  color: white;
+}
+.dinner {
+  font-size: 22px;
+  margin-top: 70px;
+}
+
+.menu-column-4:hover {
+  background-image: url("../images/foodtop/dinner.jpg");
+  opacity: 0.5;
+  color: black;
+  cursor: pointer;
+  text-decoration: underline;
+}
+/*End of Column 4*/
