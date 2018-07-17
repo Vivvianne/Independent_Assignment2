@@ -8,34 +8,34 @@ body {
 .logo{
     text-align: center;
 }
-#image{
-    background: url("../img/breakfast.jpg");
-    size: 70px;
-}
-#image1{
-    background: url("../img/lunch.jpg");
-    size: 70px;
-}
-#image3{
-    background: url("../img/dinner.jpg");
-    size: 70px;
-}
-#row-1{
-    height: 100px;
-    padding: 50px;
-    text-align: center;
-    color: #333;
-}
-#row-2{
-    height: 100px;
-    padding: 50px;
-    text-align: center;
-    color: #fff;
-    background-color: #F15A29;
-}
-#vffood{
-    padding-top: 5%;
-    margin: 0 auto;
-    width: 85%;
-    font-size: 20px;
-}
+body {
+    background: white;
+    font-family: 'Source Serif Pro', serif;
+  }
+  
+  /*Collapsing Navigation*/
+  .navigation {
+    position: fixed;
+    top: 20px;
+    left: 50px;
+    z-index: 2;
+  }
+  navigation #enable {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .menu {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(241, 90, 41, 0.8);
+    z-index: 1;
+    transition: .5s;
+  } 

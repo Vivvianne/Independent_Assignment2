@@ -21,46 +21,203 @@
     </div>
 </head>
 <body>
-    <div class="bellowl">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3" id="row-1">
-                            <p>Happy Hour</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3" id="row-2">
-                            <p>Party Time</p>
-                        </div>   
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 photo" id="image">
-                <p>Breakfast</p>
-            </div>
-            <div class="col-md-3 photo" id="image1">
-                <p>Lunch</p>
-            </div>
-            <div class="col-md-3 photo" id="image2">
-                <p>Dinner</p>
-            </div>
-        </div>
+    <title>Anita's Kitchen</title>
+  </head>
+  
+  <body>
+    <div class="navigation">
+      <div class="toggle" id="enable"><i class="fa fa-bars"></i></div>
+      <div class="menu">
+        <div class="toggle" id="disable"><i class="fas fa-times"></i></div>
+        <ul>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="vffood">
-        <div class="vf">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8">
-                        <div class="chakula">
-                            <img src="img/fastFood1.jpg" alt="ff1">
-                            <img src="img/fastFood2.jpg" alt="ff2">
-                        </div>
-                    </div>
+    <div class="container-fluid">
+      <div class="jumbotron">
+        <img src="images/logoBig.png" alt="Hambuger logo">
+        <p>We Provide The Best Food<br>At The <strong>Right Price</strong></p>
+      </div>
+  
+      <!--Menu underneath Jumbotron-->
+      <div class="row row_menu">
+        <div class="col-md-3 menu-column-1">
+          <div class="row_menu">
+            <h5 class="col-md-12 happy-hour-row">Happy Hour</h5>
+          </div>
+          <div class="row_menu">
+            <h5 class="col-md-12 party-time-row">Party Time</h5>
+          </div>
+        </div>
+        <div class="col-md-3 menu-column-2">
+          <h5 class="breakfast">Breakfast</h5>
+        </div>
+        <div class="col-md-3 menu-column-3">
+          <h5 class="lunch">Lunch</h5>
+        </div>
+        <div class="col-md-3 menu-column-4">
+          <h5 class="dinner">Dinner</h5>
+        </div>
+      </div>
+      <!--End of Menu-->
+  
+      <!--Body section with text and image-->
+      <div class="body-content-1">
+        <div class="row content-1">
+          <div class="col-md-6 column-card-1">
+            <div class="card card-with-food-images">
+              <div class="row row-img">
+                <img class="col-md-12" src="img/fastFood1.jpg" alt="fast food">
+              </div>
+              <div class="row row-img">
+                <img class="col-md-12" src="img/fastFood2.jpg" alt="fast food">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="content-1-text">
+              <h2>Fast Food</h2>
+              <h5>You'll love out delicious fast food</h5>
+              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euimdod finibus elit, nec gravida arcu ullamcorper ut. Donec vel posuere justo, nec mollis nibh. Integer ut accumsan quam. Sed a lobortis odio, eu suscipit nisl. Etiam sed tellus
+                consequat, pharetra arcu vitae, tristique lorem. Pellentesque ut iaculis lacus. Aenean vel vulputate quam. Vestibulum nisl nisl, mattis nec ante sed, pretium consequat sapien. Maecenas fermentum aliquet nunc consequat laoreet</p>
+              <p><a href="#">VIEW GALLERY <span class="arrow">&#10145;</span></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="body-content-2">
+        <div class="row content-2">
+          <div class="col-md-6">
+            <div class="content-2-text">
+              <h2>Drinks</h2>
+              <h5>We also produce delicious drinks</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euimdod finibus elit, nec gravida arcu ullamcorper ut. Donec vel posuere justo, nec mollis nibh. Integer ut accumsan quam. Sed a lobortis odio, eu suscipit nisl. Etiam sed tellus
+                consequat, pharetra arcu vitae, tristique lorem. Pellentesque ut iaculis lacus. Aenean vel vulputate quam. Vestibulum nisl nisl, mattis nec ante sed, pretium consequat sapien. Maecenas fermentum aliquet nunc consequat laoreet. </p>
+              <p><a href="#">VIEW GALLERY <span class="arrow">&#10145;</span></a></p>
+            </div>
+          </div>
+          <div class="col-md-6 column-card-2">
+            <div class="card card-with-drink-images">
+              <div class="row row_2_img">
+                <img class="col-md-6" src="img/drink1.jpg" alt="cocktails">
+                <img class="col-md-6" src="img/drink2.jpg" alt="cocktails">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End of the body section-->
+  
+      <!--Image Slider section with tabs-->
+      <div class="picture-slider-section">
+        <div class="row navi-tabs">
+          <div class="col-md-3 active" id="fastfood">
+            <p>Fast food</p>
+          </div>
+          <div class="col-md-3 dormant" id="drinks">
+            <p>Drinks</p>
+          </div>
+          <div class="col-md-3 dormant" id="chicken">
+            <p>Chicken</p>
+          </div>
+          <div class="col-md-3 dormant" id="rice">
+            <p>Rice</p>
+          </div>
+        </div>
+        <div class="row slider">
+          <div class="col-md-1 arrowLeft">
+            <p id="arrowLeft">&#60;</p>
+          </div>
+          <div class="col-md-10">
+            <div class="row images">
+              <div class="col-md-4">
+                <img src="img/chickenBurger.jpg" alt="chicken burger">
+                <p>Chicken Burger</p>
+              </div>
+              <div class="col-md-4">
+                <img src="img/beefBurger.jpg" alt="beef burger">
+                <p>Beef Burger</p>
+              </div>
+              <div class="col-md-4">
+                <img src="img/fastFood1.jpg" alt="chicken pizza">
+                <p>Chicken Pizza</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-1">
+            <p id="arrowRight">&#62;</p>
+          </div>
+        </div>
+      </div>
+      <!--End of Image slider-->
+  
+      <!-- Customer Review section-->
+      <div class="customer-review-section">
+        <div class="card customer-review-section-card">
+          <div class="row">
+            <div class="col-md 8 happy-customers">
+              <h4 class="card-title">Our Happy Customers</h4>
+              <h5 class="card-subtitle">George Richard</h5>
+              <p class="card-body">Great food! Menu is awesome, there foods are not only great but also in the right place. I'll highly recommend them :)</p>
+                <div class="row customer-photos">
+                  <div class="col-md-3">
+                    <p id="arrowLeftContacts">&#60;</p>
+                  </div>
+                  <div class="col-md-6">
+                    <img class="dormant" src="img/p1.png" alt="customer 1">
+                    <img class="active" src="img/p2.png" alt="customer 2">
+                    <img class="dormant" src="img/p3.png" alt="customer 3">
+                  </div>
+                  <div class="col-md-3">
+                    <p id="arrowRightContacts">&#62;</p>
+                  </div>
                 </div>
             </div>
+            <div class="col-md-4 about-menu">
+              <h4 class="card-title about-menu-title">About Menu</h4>
+              <p class="card-body about-menu-body"> We have a little team of 7 members. Ut wisi enim minim veniam, quis nos tredexer ci tation ullamcorper suscipit lo ortis nisl ut aliquip ex ea commodo conse quat. Duisau tem vel eum irure dolor in.</p>
+            </div>
+          </div>
         </div>
+      </div>
+      <!-- End of Customer Review section-->
+  
+      <!-- Email subscription section-->
+      <div class="subscribe-section">
+        <p>Get our daily food items delivered to your mail</p>
+        <form class="form row subscribe-form">
+          <input for="email" class="form-control col-sm-3 email-input" type="email" placeholder="Your email" required>
+          <button class="btn col-sm-2" type="submit">Subscribe</button>
+        </form>
+      </div>
+      <!-- End of email subscription section-->
+  
+      <!-- Footer -->
+      <div class="footer">
+        <div class="row business-details">
+          <div class="col-md-6 footer-logo">
+            <img src="img/logo_white.png" alt="Hamburger Logo">
+          </div>
+          <div class="col-md-6">
+            <p>MENU</p>
+          </div>
+        </div>
+        <p id="slogan">That's What We Are</p>
+        <div class="social-media">
+          <ul class="social-media">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+          </ul>
+        </div>
+        <p id="copyright">Menu Restaurant</p>
+      </div>
+      <!-- End of footer-->
+  
     </div>
    
    
